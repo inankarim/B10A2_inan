@@ -19,6 +19,7 @@ header{
 }
 .p1{
     color: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
     font-family: Inter;
     margin: 0;
     padding: 0;
@@ -100,59 +101,64 @@ text-align: left;
     cursor: pointer;
     text-align: center;
 }
-.circle {
-    width: 20px;    
-    height: 20px;    
-    background-color: red; 
-    border-radius: 50%; 
-}
 
 
 .tag1{
 justify-content: space-between;
 align-items: center;
 position: absolute;
-width: 120px;
-height: 55px;
-left: 764px;
-top: 556px;
+width: 150px;
+height: 80px;
+left: 740px;
+top: 480px;
 box-sizing: border-box;
 border: 1px solid rgba(255, 255, 255, 0.1);
 backdrop-filter: blur(20px);
 background: rgba(48, 48, 48, 0.54);
+border-radius: 7px;
+margin: auto;
+
 }
 .none{
     background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+.circle{
+    color: red;
+    font-size: 30px;
+    margin-left: 7px;
 }
 .video{
-font-size: 12px;
+font-size: 13px;
 font-weight: 400;
 line-height: 20px;
 letter-spacing: 0.5px;
 text-align: left;
+margin-right: 7px;
 }
 li{
     list-style: none;
 }
 .tag2{
 position: absolute;
-width: 193px;
-height: 98px;
-left: 1107px;
-top: 260px;
-margin: auto;
+width: 170px;
+height: 70px;
+left: 900px;
+top: 210px;
 box-sizing: border-box;
 border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 12px;
+backdrop-filter: blur(30px);
+background: rgba(48, 48, 48, 0.54);
+border-radius: 7px;
+margin: auto;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 
-backdrop-filter: blur(20px);
-background: rgba(255, 255, 255, 0.1);box-sizing: border-box;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 12px;
-
-backdrop-filter: blur(20px);
-background: rgba(255, 255, 255, 0.1);
-
+}
+.fa-thin fa-circle-play{
+    color: red;
 }
 
 /* section2 */
@@ -283,4 +289,57 @@ img{
 
 .img1{
     border-radius: 18px;
+}
+
+/* git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/inankarim/B10A2_inan.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/inankarim/B10A2_inan.git
+git branch -M main
+git push -u origin main */
+.page6-part1{
+    justify-content:flex-start;
+    align-items:flex-start; 
+    flex-direction: column;
+    margin: 20px 140px;
+}
+.page6-part2{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    width: 1300px;
+    height:350px;
+}
+
+.button-chart{
+    margin-right: 120px;
+}
+.brow{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+width: 190px;
+height: 40px;
+margin: 5px 6px;
+}
+.brow3{
+    width: 392px
+}
+.table{
+    margin-left: 120px;
+}
+.broww3{
+    flex-direction: column;
+}
+table {
+    width: 300px; /* Adjusts the table to take 100% of the container width */
+    height: 160px; /* Automatically adjusts the height based on content */
+    border-collapse: collapse; /* Ensures borders are not doubled */
+}
+.color{
+    background-color: rgb(34, 34, 34);
 }
