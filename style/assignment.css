@@ -416,6 +416,23 @@ hr{
 .ham-burg{
     display: none;
 }
+.page7-part1{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page7-part2{
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+.but7{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    color: orange;
+}
 
 @media screen  and (max-width:600px) {
     *{
@@ -514,7 +531,7 @@ padding: 0;
     flex-direction: column;
     align-items: center;
     height: fit-content;
-    margin-left: 125px;
+    margin-left: 115px;
 }
 .button-chart{
     margin-right: 0px;
@@ -561,11 +578,16 @@ section{
     margin: 10px 20px;
 }
 .container {
-    width: 200px; /* Small width to force line break */
+    width: 200px;
 }
-
 .your-class {
     overflow-wrap: break-word;
     word-break: break-all;
+}
+.uniqbor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 }
